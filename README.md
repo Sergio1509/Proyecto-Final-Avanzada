@@ -24,10 +24,11 @@ PROYECTO FINAL/
 2. Configura las variables en `.env`:
 
 ```env
-POSTGRES_HOST=postgres  
-POSTGRES_DB=proyecto  
-POSTGRES_USER=admin  
-POSTGRES_PASSWORD=secret  
+POSTGRES_HOST=postgres
+POSTGRES_PORT=5432
+POSTGRES_DB=backend-go
+POSTGRES_USER=postgres
+POSTGRES_PASSWORD=postgres 
 ```
 
 3. Levanta los servicios con Docker (Inicia el back y el front):
