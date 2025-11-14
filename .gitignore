@@ -9,6 +9,3 @@ dist/
 # Docker
 pg-data/
 *.log
-
-# Env
-.env
