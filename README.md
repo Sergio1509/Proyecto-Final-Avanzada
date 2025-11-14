@@ -7,13 +7,7 @@ Permite gestionar alquimistas, misiones y supervisores, con autenticación y pro
 
 ## 📂 Estructura del proyecto
 
-PROYECTO FINAL/ 
-├── backend-avanzada-go-main/ # API REST en Go con PostgreSQL 
-├── frontend-avanzada-final/ # Interfaz en React + Vite 
-├── docker-compose.yml # Orquestación de servicios 
-    └── .env # Variables de entorno (no se sube)
-
-
+![alt text](image.png)
 ---
 
 ## 🚀 Instalación y ejecución
@@ -23,12 +17,15 @@ PROYECTO FINAL/
    git clone https://github.com/Sergio1509/Proyecto-Final-Avanzada.git
    cd Proyecto-Final-Avanzada
 
-2. Configura las variables en .env:
-POSTGRES_HOST=postgres
-POSTGRES_DB=proyecto
-POSTGRES_USER=admin
-POSTGRES_PASSWORD=secret
-VITE_API_URL=http://app:8000
+2. Configura las variables en `.env`:
+
+```env
+POSTGRES_HOST=postgres  
+POSTGRES_DB=proyecto  
+POSTGRES_USER=admin  
+POSTGRES_PASSWORD=secret  
+VITE_API_URL=http://app:8000  
+
 
 3. Levanta los servicios con Docker:
 
