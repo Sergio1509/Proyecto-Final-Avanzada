@@ -21,23 +21,14 @@ PROYECTO FINAL/
    git clone https://github.com/Sergio1509/Proyecto-Final-Avanzada.git
    cd Proyecto-Final-Avanzada
 
-2. Configura las variables en `.env`:
 
-```env
-POSTGRES_HOST=postgres
-POSTGRES_PORT=5432
-POSTGRES_DB=backend-go
-POSTGRES_USER=postgres
-POSTGRES_PASSWORD=postgres 
-```
-
-3. Levanta los servicios con Docker (Inicia el back y el front):
+2. Levanta los servicios con Docker (Inicia el back y el front):
 
 ```
 docker-compose up --build
 ```
 
-4. Accede a:
+3. Accede a:
 
 
 Frontend → http://localhost:5173  
