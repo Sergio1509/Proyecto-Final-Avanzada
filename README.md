@@ -25,7 +25,7 @@ POSTGRES_DB=proyecto
 POSTGRES_USER=admin  
 POSTGRES_PASSWORD=secret  
 VITE_API_URL=http://app:8000  
-
+```
 
 3. Levanta los servicios con Docker:
 
