@@ -7,7 +7,11 @@ Permite gestionar alquimistas, misiones y supervisores, con autenticación y pro
 
 ## 📂 Estructura del proyecto
 
-![alt text](image.png)
+PROYECTO FINAL/  
+├── backend-avanzada-go-main/ # API REST en Go con PostgreSQL  
+├── frontend-avanzada-final/ # Interfaz en React + Vite  
+├── docker-compose.yml # Orquestación de servicios  
+└── .env # Variables de entorno  
 ---
 
 ## 🚀 Instalación y ejecución
@@ -29,26 +33,32 @@ VITE_API_URL=http://app:8000
 
 3. Levanta los servicios con Docker:
 
+```
 docker-compose up --build
+```
 
 4. Accede a:
 
-Frontend → http://localhost:5173
-Backend → http://localhost:8000
+
+Frontend → http://localhost:5173  
+Backend → http://localhost:8000  
 
 🔐 Login de prueba
 
-"username": "almaquinista",
+```
+"username": "almaquinista",  
 "password": "1234"
+```
 
 🛠️ Tecnologías
-    Go 1.24
-    React + Vite
-    PostgreSQL 18
-    Docker Compose
+    Go 1.24  
+    React + Vite  
+    PostgreSQL 18  
+    Docker Compose  
 
 📦 Endpoints principales
-    POST /login → Autenticación
-    GET /alquimistas → Listado protegido
-    GET /misiones → Listado protegido
+
+    POST /login → Autenticación  
+    GET /alquimistas → Listado protegido  
+    GET /misiones → Listado protegido  
 
